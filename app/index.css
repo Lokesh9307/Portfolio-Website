@@ -1,0 +1,132 @@
+
+:root{
+    --gradient:linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
+}
+
+
+.wordAnimate h2::after{
+    font-size:2rem;
+    content: 'Web Developer';
+    animation: textToggle 5s infinite ease-in-out;
+    animation-delay: 3s;
+    /* transition: all 3s; */
+}
+
+@keyframes textToggle{
+    20%{
+        content: 'Frontend Developer'; 
+    }
+    40%{
+        content: 'Backend Developer';
+    }
+    60%{
+        content: 'UI/UX Designer';
+    }
+    80%{
+        content: 'Python Developer';
+    }
+}
+
+.GradientBorder{
+    border-width: 2px;
+    border-style: solid;
+    border-color:linear-gradient(from blue to rgb(8, 8, 31));
+}
+
+
+.tooltip:hover span{
+        opacity: 1;
+}
+
+.tooltip-item{
+    backdrop-filter:blur(10px);
+}
+.tooltip:nth-child(1){
+    color: #3b82f6;
+}
+.tooltip:nth-child(2){
+    color: #ec4899;
+}
+.tooltip:nth-child(3){
+    color: #3b82f6;
+}
+.tooltip:nth-child(4){
+    color: #ffff;
+    ;
+}
+.bg-header{
+    background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
+        /* background-image: linear-gradient(to top, #cd9cf2 0%, #ecd0f8 100%); */
+    animation: bgChange 3s infinite linear;
+}
+
+@keyframes bgChange {
+    33%{
+        background-image: linear-gradient(to top, #9795f0 0%, #fbc8d4 100%);
+    }
+    66%{
+        background-image: linear-gradient(to top, #f88ad9 0%, #a6c1ee 100%);
+    }
+}
+
+.Heading{
+    background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #52cbe9 100%);
+    -webkit-background-clip: text; 
+    background-clip: text;
+    color: transparent; 
+
+}
+
+.ProjectCard{
+    background-color: white;
+    backdrop-filter:blur(40px);
+}
+
+.Project-Card-Border{
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+
+/* .contact{
+    background-image: url('../utils/bg-contact-2.jpeg');
+    background-repeat: no-repeat;
+    object-fit:contain;
+    aspect-ratio: 16/4;
+    
+} */
+
+
+.form-section{
+    background:#ffffff08;
+    backdrop-filter: blur(10px);
+    --webkit-backdrop-filter:blur(10px);
+    border:2px solid rgba(241, 69, 241, 0.605);
+    
+}
+
+.form-section input{
+    background:rgba(118, 115, 115, 0.323);
+    padding: 5px;
+    font-size: 1rem;
+    border-radius: 7px;
+    width: 300px;
+}
+
+.form-section textarea{
+    background:rgba(118, 115, 115, 0.323);
+    width: 300px;
+    height: 100px;
+    column-count: 20;
+    resize: none;  
+}
+
+.form-section input[type=submit]{
+    background:linear-gradient(to right purple pink);
+}
+
+.scrollBar::-webkit-scrollbar{
+   display: none;
+}
+
+.Certificate-container{
+    box-shadow: rgba(231, 233, 234, 0.3) 0px 1px 2px 0px, rgba(222, 224, 226, 0.15) 0px 1px 3px 1px;
+}

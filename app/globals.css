@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  scroll-behavior: smooth;
+  /* background-color: #212529; */
+}
+/* styles.css */
+.border-gradient {
+    border-width: 2px;
+    border-style: solid;
+    border-image: linear-gradient(to right, #9102ff, #ff00dd);
+    border-image-slice:1;
+  }
+  
