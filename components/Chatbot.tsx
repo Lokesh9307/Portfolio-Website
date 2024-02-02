@@ -43,7 +43,7 @@ const Chatbot: React.FC = () => {
                 <div className='fixed top-50 right-0 p-3 rounded-lg'>
                     <b><h1 className={`${Toggleclass} font-medium lg:text-3xl text-2xl bg-white text-black rounded-lg text-center mb-[-8px] p-1`}>Ask About Me 😎</h1></b>
                     <iframe
-                        src="https://www.chatbase.co/chatbot-iframe/r3jruibFPjEg-LEgvVnw8"
+                        src="https://www.chatbase.co/chatbot-iframe/fvwDxQ5j0TEZ71seh3BZ_"
                         width="100%"
                         className={`lg:w-[500px] h-[400px] text-[20px] rounded-lg ${Toggleclass}`}
                     ></iframe>
@@ -58,3 +58,5 @@ const Chatbot: React.FC = () => {
 };
 
 export default Chatbot;
+
+

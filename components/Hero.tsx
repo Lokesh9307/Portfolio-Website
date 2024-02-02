@@ -7,11 +7,6 @@ import HeroHand from '../utils/Hand.png'
 import ContactLink from './ContactLink';
 // import Resume from '../public/resume.pdf';
 
-
-
-
-
-
 const Hero:React.FC = () => {
 
   return (
