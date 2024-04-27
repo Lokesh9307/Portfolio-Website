@@ -8,6 +8,8 @@ import Projects from '@/components/Projects'
 import Skills from '@/components/Skills'
 import Head from 'next/head'
 import React from 'react'
+import { Analytics } from "@vercel/analytics/react"
+
 
 
 const page = () => {
@@ -23,6 +25,7 @@ const page = () => {
       <Certificate />
       <Contact />
       <Footer />
+      <Analytics/>
     </>
   )
 }
