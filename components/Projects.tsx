@@ -28,9 +28,9 @@ const Projects = () => {
     <>
       <main id='projects' className='w-full h-auto p-10 bg-[#212529]'>
         <h1 className='Heading p-3 text-3xl mb-5'>My Projects</h1>
-        <section className='flex flex-wrap gap-10 lg:justify-between items-center justify-around'>
+        <section className='flex flex-wrap mx-auto gap-10 lg:justify-start items-center justify-around'>
           {ProjectData.map((item, id) => (
-            <div key={id} className={`max-w-[300px] bg-white h-auto flex flex-col p-2 overflow-hidden aspect-square relative rounded-2xl card`}>
+            <div key={id} className={`max-w-[300px] bg-white h-auto flex flex-col p-2 overflow-hidden aspect-square relative rounded-2xl card mx-3`}>
               <div className='relative w-full h-full overflow-hidden'>
                   <Image className='absolute top-0 left-0 w-full height-full z-[10] rounded-xl' src={item.img} alt='img'></Image>
               </div>

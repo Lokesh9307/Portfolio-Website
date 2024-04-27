@@ -20,7 +20,7 @@ const Hero:React.FC = () => {
           <h2 className='lg:text-2xl text-xl'>I am, <br /><br /></h2>
           <ContactLink />
           <div className='flex flex-col items-center gap-1'>
-            <a href="./pdf/Resume.pdf" target='blank' className='bg-black/50 p-2 text-xl rounded-lg border-2 border-green-500/50 hover:border-green-500'>Resume</a>
+            <Link href="/pdfview" target='blank'  className='bg-black/50 p-2 text-xl rounded-lg border-2 border-green-500/50 hover:border-green-500'>Resume</Link>
           </div>
         </section>
         <section className='lg:block '>
