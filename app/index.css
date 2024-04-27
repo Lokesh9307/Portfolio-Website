@@ -1,6 +1,9 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Infant:ital,wght@0,1..1000;1,1..1000&display=swap');
+
 :root{
     --gradient:linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
+    font-family: "Ysabeau Infant", sans-serif;
 }
 
 
@@ -45,13 +48,14 @@
     color: #3b82f6;
 }
 .tooltip:nth-child(2){
-    color: #ec4899;
+    color: #ffff;
+    
 }
 .tooltip:nth-child(3){
     color: #3b82f6;
 }
 .tooltip:nth-child(4){
-    color: #ffff;
+    color: #ec4899;
     ;
 }
 .bg-header{
@@ -130,3 +134,17 @@
 .Certificate-container{
     box-shadow: rgba(231, 233, 234, 0.3) 0px 1px 2px 0px, rgba(222, 224, 226, 0.15) 0px 1px 3px 1px;
 }
+
+/* Basic styles for the text */
+.shining-text {
+    font-weight: bold;
+    color: #aaa; /* Base color of the text */
+    text-transform: uppercase;
+    background: linear-gradient(to right, #444, #888); /* Background gradient for metallic effect */
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+
+ 

@@ -1,4 +1,3 @@
-
 'use client'
 import { useEffect, useState } from 'react';
 import { FaRobot } from "react-icons/fa";
@@ -21,8 +20,8 @@ const Chatbot: React.FC = () => {
     useEffect(() => {
         const script = document.createElement("script");
         script.src = "https://www.chatbase.co/embed.min.js";
-        // script.chatbotId = window.embeddedChatbotConfig.chatbotId;
-        // script.domain = window.embeddedChatbotConfig.domain;
+        // script.chatbotId = "7T_tDkGSOzcJuy829wcSO";
+        // script.domain = "www.chatbase.co";
         script.defer = true;
         document.head.appendChild(script);
         return () => {
@@ -43,7 +42,7 @@ const Chatbot: React.FC = () => {
                 <div className='fixed top-50 right-0 p-3 rounded-lg'>
                     <b><h1 className={`${Toggleclass} font-medium lg:text-3xl text-2xl bg-white text-black rounded-lg text-center mb-[-8px] p-1`}>Ask About Me 😎</h1></b>
                     <iframe
-                        src="https://www.chatbase.co/chatbot-iframe/fvwDxQ5j0TEZ71seh3BZ_"
+                        src="https://www.chatbase.co/chatbot-iframe/7T_tDkGSOzcJuy829wcSO"
                         width="100%"
                         className={`lg:w-[500px] h-[400px] text-[20px] rounded-lg ${Toggleclass}`}
                     ></iframe>
@@ -58,5 +57,3 @@ const Chatbot: React.FC = () => {
 };
 
 export default Chatbot;
-
-
