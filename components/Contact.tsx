@@ -4,7 +4,7 @@ import '../app/index.css'
 const Contact = () => {
     return (
         <>
-            <main id='contact' className=' w-full h-[76.5vh] flex items-center justify-center bg-transparent'>
+            <main id='contact' className=' w-full h-[76.5vh] flex items-center justify-center bg-[#212529]'>
                 <form action="https://formsubmit.co/4e8d0a60736f1b308d8a99e92c2567e1 " className='contact  max-h-96 flex items-center justify-center flex-col gap-3' method='POST'>
                     <section className='form-section lg:w-auto h-full flex flex-col gap-3 items-center justify-center p-10 text-white rounded-lg '>
                         <h1 className='text-2xl '>Contact Me 😉</h1>

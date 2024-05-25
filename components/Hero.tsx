@@ -10,7 +10,7 @@ import { IoLocation } from "react-icons/io5";
 const Hero: React.FC = () => {
   return (
     <>
-      <main className=' bg-transparent w-full lg:h-[86vh] flex justify-between items-center py-4 overflow-hidden lg:px-10 px-6 lg:flex-row flex-col relative z-50' id='showcase__container'>
+      <main className=' bg-[#212529] w-full lg:h-[86vh] flex justify-between items-center py-4 overflow-hidden lg:px-10 px-6 lg:flex-row flex-col relative z-50' id='showcase__container'>
         <section className='flex flex-col justify-between lg:items-start items-center'>
           <div>
             <h1 className='lg:text-4xl text-xl text-[#f1faee] font-semibold '>

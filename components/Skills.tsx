@@ -32,7 +32,7 @@ const Skills = () => {
   ]
   return (
     <>
-      <main id='skills' className='w-full lg:h-[76.5vh] h-auto bg-transparent text-white p-10 flex flex-col justify-between lg:gap-2 gap-4 z-50'>
+      <main id='skills' className='w-full lg:h-[76.5vh] h-auto bg-[#212529] text-white p-10 flex flex-col justify-between lg:gap-2 gap-4 z-50'>
         <h1 className=' Heading text-4xl'>Ask Me About </h1>
         <section className='flex gap-4 flex-col'>
           <h1>Frontend Stack :</h1>
