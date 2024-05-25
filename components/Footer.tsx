@@ -1,12 +1,9 @@
 'use client'
-
-import Link from 'next/link';
-import React, { useState } from 'react'
-import { FaArrowAltCircleUp, FaReact, FaGithub } from "react-icons/fa";
+import React from 'react'
+import { FaReact, FaGithub } from "react-icons/fa";
 import { SiTailwindcss } from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
 import '../app/index.css'
-import SplineScene from './animation';
 
 const Footer = () => {
   return (

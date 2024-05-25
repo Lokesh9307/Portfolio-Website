@@ -9,8 +9,7 @@ import Skills from '@/components/Skills'
 import SplineScene from '@/components/animation'
 import Head from 'next/head'
 import React from 'react'
-import { Suspense } from 'react'
-import PageBackground from '@/components/pageBackground'
+
 
 const page = () => {
   return (

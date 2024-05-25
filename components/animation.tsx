@@ -1,8 +1,8 @@
 'use client'
 // components/SplineScene.tsx
-import { Suspense, useEffect, useRef } from 'react';
+import { useEffect, useRef } from 'react';
 import { Application } from '@splinetool/runtime';
-import PageBackground from './pageBackground';
+
 
 const SplineScene: React.FC = () => {
   const canvasRef = useRef<HTMLCanvasElement>(null);
