@@ -2,11 +2,7 @@ import React from 'react'
 import { FaReact, FaHtml5, FaCss3Alt, FaNodeJs, FaPython, FaFigma, FaAws, FaBootstrap, FaDocker } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
 import { SiExpress, SiMongodb, SiTailwindcss,SiNextdotjs  } from "react-icons/si";
-import { TbBrandNextjs } from "react-icons/tb";
 import '../app/index.css';
-
-
-
 
 
 const Skills = () => {
@@ -36,7 +32,7 @@ const Skills = () => {
   ]
   return (
     <>
-      <main id='skills' className='w-full lg:h-[76.5vh] h-auto bg-[#212529] text-white p-10 flex flex-col justify-between lg:gap-2 gap-4'>
+      <main id='skills' className='w-full lg:h-[76.5vh] h-auto bg-transparent text-white p-10 flex flex-col justify-between lg:gap-2 gap-4 z-50'>
         <h1 className=' Heading text-4xl'>Ask Me About </h1>
         <section className='flex gap-4 flex-col'>
           <h1>Frontend Stack :</h1>

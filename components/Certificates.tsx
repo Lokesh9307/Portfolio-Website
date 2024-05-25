@@ -30,12 +30,12 @@ const Certificates:React.FC = () => {
 
     const NextBtn = () => {
         if (containerRef.current) {
-            containerRef.current.scrollLeft += 1200;
+            containerRef.current.scrollLeft += 500;
         }
     }
     const PrevBtn = () => {
         if (containerRef.current) {
-            containerRef.current.scrollLeft -= 1200;
+            containerRef.current.scrollLeft -= 500;
         }
     }
 
@@ -43,7 +43,7 @@ const Certificates:React.FC = () => {
 
     return (
         <>
-            <main id='certificates' className='w-full h-auto bg-[#212529] flex justify-center items-center flex-col gap-2 p-20'>
+            <main id='certificates' className='w-full h-auto bg-transparent flex justify-center items-center flex-col gap-2 p-20'>
                 <h1 className='Heading text-5xl' >Certificates</h1>
                 <section ref={containerRef} className='flex overflow-x-auto gap-3 p-10 overflow-y-hidden scroll-none scroll-snap-align-center scrollBar border-t-2 border-b-2 border-slate-600/20 Certificate-container lg:w-auto w-[90vw]'>
                     {
