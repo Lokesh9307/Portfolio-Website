@@ -32,7 +32,7 @@ const Skills = () => {
   ]
   return (
     <>
-      <main id='skills' className='w-full lg:h-[76.5vh] h-auto bg-[#212529] text-white p-10 flex flex-col justify-between lg:gap-2 gap-4 z-50'>
+      <main id='skills' className='w-full lg:h-[76.5vh] h-auto bg-black text-white p-10 flex flex-col justify-between lg:gap-2 gap-4 z-50'>
         <h1 className=' Heading text-4xl'>Ask Me About </h1>
         <section className='flex gap-4 flex-col'>
           <h1>Frontend Stack :</h1>
@@ -51,7 +51,7 @@ const Skills = () => {
           <h1>Backend Stack :</h1>
           <div className='flex gap-3 flex-wrap '>
             {Backend.map((item, id) => (
-              <div key={id} className={`lg:w-40 h-[50px] bg-black/50 backdrop-filter backdrop-blur-md  flex justify-center items-center gap-1 rounded-md ${item.style} w-[140px]`}>
+              <div key={id} className={`lg:w-40 h-[50px] bg-slate-900 backdrop-filter backdrop-blur-md  flex justify-center items-center gap-1 rounded-md ${item.style} w-[140px]`}>
                 <span className='text-lg'>{item.icon}</span>
                 <span>{item.label}</span>
               </div>

@@ -26,7 +26,7 @@ const Projects = () => {
 
   return (
     <>
-      <main id='projects' className='w-full h-auto p-10 bg-[#212529]'>
+      <main id='projects' className='w-full h-auto p-10 bg-black'>
         <h1 className='Heading p-3 text-3xl mb-5'>My Projects</h1>
         <section className='flex flex-wrap mx-auto gap-10 lg:justify-evenly items-center justify-around'>
           {ProjectData.map((item, id) => (

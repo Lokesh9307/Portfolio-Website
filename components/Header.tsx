@@ -32,7 +32,7 @@ const Header = () => {
             <header className='lg:h-32 font-[Mona Sans] p-2 backdrop-blur-2 flex text-xl lg:flex lg:justify-between lg:flex-row flex-col justify-between items-center h-auto bg-header text-white/75 sticky top-0 z-[999]'>
                 <section className='flex items-center gap-3 my-4 bg-transparent'>
                     <Image src={Profile} alt='profile' width={200} className='bg-transparent rounded-full bg-gradient-to-r from-purple-500  to-yellow-500 lg:w-50 w-28  p-1' onClick={ProfileShow}></Image>
-                    <Link href='/' className='bg-transparent'><h1 className='font-bolder lg:text-3xl md:text-2xl sm:text-xl text-center bg-transparent'>LOKESH UMREDKAR</h1></Link>
+                    <Link href='/' className='bg-transparent'><h1 className='font-extrabold lg:text-3xl md:text-2xl sm:text-xl text-center bg-transparent style-heading'>LOKESH UMREDKAR</h1></Link>
                 </section>
                 <hr />
                 <section className='flex items-center justify-center gap-3 flex-col bg-transparent'>

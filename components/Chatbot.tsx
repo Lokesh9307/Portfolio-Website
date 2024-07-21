@@ -49,7 +49,7 @@ const Chatbot: React.FC = () => {
 
                 </div>
                 <div className='fixed bottom-0 right-0 p-3'>
-                    <button className='text-3xl text-white bg-black p-2 rounded-full font-bolder' onClick={Toggle}>{open ? <IoIosCloseCircle className='hover:text-red-500'/> : <FaRobot className='hover:text-green-300' />}</button>
+                    <button className=' ring-2 ring-slate-600 text-3xl text-white bg-black p-2 rounded-full font-bolder' onClick={Toggle}>{open ? <IoIosCloseCircle className='hover:text-red-500'/> : <FaRobot className='hover:text-green-300' />}</button>
                 </div>
             </section>
         </>

@@ -8,10 +8,16 @@ import '../app/index.css'
 const Footer = () => {
   return (
     <>
-      <footer className='w-full h-auto p-4 bg-[#212529] flex flex-col gap-8'>
-        <section className='flex items-center justify-evenly gap-5'>
+      <footer className='w-full h-auto p-4 bg-black flex flex-col gap-8'>
+        <section className='flex items-start justify-evenly gap-5 flex-col'>
           {/* stack */}
-          <div className='bg-slate-500/40 w-full flex flex-col items-center justify-center rounded-lg '>
+          <div className=' p-4 rounded-xl text-white w-auto'>
+            <p>About</p>
+            <h2>lokeshumredkar2003@gmail.com</h2>
+            <h2>+91-9307406834</h2>
+            <h2>📍India</h2>
+          </div>
+          <div className='bg-black w-full flex flex-col items-center justify-center rounded-lg '>
             <div className='text-xl text-white/60'>
               <p>Stack Use</p>
             </div>
@@ -21,12 +27,6 @@ const Footer = () => {
               <SiTailwindcss />
               <TbBrandNextjs />
             </div>
-          </div>
-          <div className='bg-slate-500/40 p-4 rounded-xl text-white w-full'>
-            <p>About</p>
-            <h2>lokeshumredkar2003@gmail.com</h2>
-            <h2>+91-9307406834</h2>
-            <h2>📍India</h2>
           </div>
         </section>
         <h2 className='text-white/70 text-center'>
