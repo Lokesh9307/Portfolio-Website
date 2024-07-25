@@ -17,7 +17,7 @@ const Projects = () => {
   const ProjectData = [
     { name: 'Youtube Clone', img: Youtube, description: 'Youtube clone using React, Material UI and Rapid API', liveLink: 'https://beast-media-lokesh.netlify.app/', GitHubLink: 'https://github.com/Lokesh9307/youtube-clone' },
     { name: 'Todo List', img: Todo, description: 'Todo List using React, Material UI using localhost storage', liveLink: 'https://todoapp-lokii.netlify.app/', GitHubLink: 'https://github.com/Lokesh9307/Todo-App' },
-    { name: 'Fitness App', img: Fitness, description: 'Fitness Apk using React, Material UI and Rapid API', liveLink: 'https://stayfit-n-strong.netlify.app/', GitHubLink: 'https://github.com/Lokesh9307/Fitness-App' },
+    { name: 'Fitness App', img: Fitness, description: 'Fitness Apk using React, Material UI and Rapid API', liveLink: 'https://stayfit-fitness.vercel.app/', GitHubLink: 'https://github.com/Lokesh9307/Fitness-App' },
     { name: 'Calculator', img: Calculator, description: 'Calculator using HTML, CSS, JavaScript', liveLink: 'https://simple-calculator-lokii.netlify.app/', GitHubLink: 'https://github.com/Lokesh9307' },
     { name: 'Travel App UI', img: Travel, description: 'Travel App UI design using NextJs , Tailwind CSS ', liveLink: 'https://hilink-travelapp.netlify.app/', GitHubLink: 'https://github.com/Lokesh9307/TravelApp-UI' },
     { name: 'Developer Helper', img: DevHelper, description: 'Developers Helping Website using NextJs, Tailwind CSS and Typescript', liveLink: 'https://developer-helper.vercel.app/', GitHubLink: 'https://github.com/Lokesh9307/developer-helper' },
