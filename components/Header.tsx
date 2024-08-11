@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import Link from 'next/link'
 import { TiThMenu } from "react-icons/ti";
 import { IoClose  } from "react-icons/io5";
-import Profile from '../utils/profile.png'
+import Profile from '../utils/profile.jpg'
 import Image from 'next/image';
 import '../app/index.css'
 import Chatbot from '@/components/Chatbot'
