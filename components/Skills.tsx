@@ -51,7 +51,7 @@ const Skills = () => {
           <h1>Backend Stack :</h1>
           <div className='flex gap-3 flex-wrap '>
             {Backend.map((item, id) => (
-              <div key={id} className={`lg:w-40 h-[50px] bg-slate-900 backdrop-filter backdrop-blur-md  flex justify-center items-center gap-1 rounded-md ${item.style} w-[140px]`}>
+              <div key={id} className={`lg:w-40 h-[50px] bg-black/50 backdrop-filter backdrop-blur-md  flex justify-center items-center gap-1 rounded-md ${item.style} w-[140px]`}>
                 <span className='text-lg'>{item.icon}</span>
                 <span>{item.label}</span>
               </div>

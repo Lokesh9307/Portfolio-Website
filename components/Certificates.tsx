@@ -2,13 +2,14 @@
 
 import React, { useRef } from 'react'
 import item1 from '../utils/certificates/1.jpg';
+import accenture from '../utils/certificates/accenture.jpg';
+import jpmorgan from '../utils/certificates/jpmorgan.jpg';
 import item2 from '../utils/certificates/2.jpg';
 import item3 from '../utils/certificates/3.jpg';
 import item4 from '../utils/certificates/4.jpg';
 import item5 from '../utils/certificates/5.jpg';
 import item6 from '../utils/certificates/6.jpg';
 import item7 from '../utils/certificates/7.jpg';
-import item8 from '../utils/certificates/8.jpg';
 import Image from 'next/image';
 import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from "react-icons/fa";
 import '../app/index.css'
@@ -17,8 +18,10 @@ import '../app/index.css'
 const Certificates:React.FC = () => {
 
     const Certificate = [
-        { name: 'Udemy: build the custom E-commerce site in React + Javascript', img: item1 },
+        { name: '', img: accenture },
+        { name: '', img: jpmorgan },
         { name: '', img: item2 },
+        { name: '', img: item1 },
         { name: '', img: item3 },
         { name: '', img: item4 },
         { name: '', img: item5 },
