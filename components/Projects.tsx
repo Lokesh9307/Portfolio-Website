@@ -8,6 +8,7 @@ import Fitness from '../utils/projects/fitness.jpg'
 import Calculator from '../utils/projects/Calculator.jpeg'
 import Travel from '../utils/projects/travel.jpeg'
 import DevHelper from '../utils/projects/devhelper.png'
+import Quizify from '../utils/projects/quizify.jpeg'
 import { IoIosLink, IoLogoGithub } from "react-icons/io";
 
 
@@ -21,6 +22,7 @@ const Projects = () => {
     { name: 'Calculator', img: Calculator, description: 'Calculator using HTML, CSS, JavaScript', liveLink: 'https://simple-calculator-lokii.netlify.app/', GitHubLink: 'https://github.com/Lokesh9307' },
     { name: 'Travel App UI', img: Travel, description: 'Travel App UI design using NextJs , Tailwind CSS ', liveLink: 'https://hilink-travelapp.netlify.app/', GitHubLink: 'https://github.com/Lokesh9307/TravelApp-UI' },
     { name: 'Developer Helper', img: DevHelper, description: 'Developers Helping Website using NextJs, Tailwind CSS and Typescript', liveLink: 'https://developer-helper.vercel.app/', GitHubLink: 'https://github.com/Lokesh9307/developer-helper' },
+    { name: 'Quizify', img: Quizify, description: 'An AI generated quiz app powered by Gemini using NextJs, Tailwind CSS and Typescript', liveLink: 'https://quizify-ai-generator.vercel.app/', GitHubLink: 'https://github.com/Lokesh9307/Ai-quiz-generator' },
   ]
 
 
