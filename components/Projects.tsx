@@ -2,12 +2,11 @@ import React from 'react'
 import '../app/index.css'
 import Image from 'next/image'
 import Link from 'next/link'
-import Youtube from '../utils/projects/Youtube.jpeg'
+import Youtube from '../utils/projects/youtube.jpeg'
 import Fitness from '../utils/projects/fitness.jpeg'
 import DevHelper from '../utils/projects/DevHelp.jpeg'
 import Quizify from '../utils/projects/quizify.jpeg'
 import { IoIosLink, IoLogoGithub } from "react-icons/io";
-
 
 
 const Projects = () => {
