@@ -70,7 +70,7 @@ const Contact: React.FC = () => {
                             <textarea
                                 name="Subject"
                                 id="textarea"
-                                className="w-full"
+                                className="w-full p-2"
                                 required
                                 value={message}
                                 onChange={(e) => setMessage(e.target.value)}
