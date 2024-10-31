@@ -51,7 +51,7 @@ const Certificates:React.FC = () => {
                 <section ref={containerRef} className='flex overflow-x-auto gap-3 p-10 overflow-y-hidden scroll-none scroll-snap-align-center scrollBar border-t-2 border-b-2 border-slate-600/20 Certificate-container lg:w-auto w-[90vw]'>
                     {
                         Certificate.map((item, id) => (
-                            <Image src={item.img} alt='img' className='aspect-video flex-1 hover:scale-125 lg:w-[425px] w-[500px] '></Image>
+                            <Image key={id} src={item.img} alt='img' className='aspect-video flex-1 hover:scale-125 lg:w-[425px] w-[500px] '></Image>
                         ))
                     }
                 </section>

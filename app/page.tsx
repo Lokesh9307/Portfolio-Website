@@ -9,22 +9,22 @@ import Skills from '@/components/Skills'
 // import SplineScene from '@/components/animation'
 import Head from 'next/head'
 import React from 'react'
+import { ToastContainer } from 'react-toastify'
 
 
 const page = () => {
   return (
     <>
-        {/* <SplineScene /> */}
-        <Head>
-          <link rel="icon" href="/images/logo.png" />
-        </Head>
-        <Header />
-        <Hero />
-        <Skills />
-        <Projects />
-        <Certificate />
-        <Contact />
-        <Footer />
+      <Head>
+        <link rel="icon" href="/images/logo.png" />
+      </Head>
+      <Header />
+      <Hero />
+      <Skills />
+      <Projects />
+      <Certificate />
+      <Contact />
+      <Footer />
     </>
   )
 }
