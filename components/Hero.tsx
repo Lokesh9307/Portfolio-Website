@@ -29,7 +29,7 @@ const Hero: React.FC = () => {
             </p>
           </div>
           <div className='flex flex-col gap-3 justify-center items-center'>
-            <Link href='/pdf/Lokesh Umredkar.pdf' className='text-center flex justify-center items-center text-xl border-2 border-[#c7f9cc] w-[10rem] p-3 rounded-lg text-green-400 mt-6 hover:border-green-600'>Resume</Link>
+            <Link href='/pdf/Lokesh_Umredkar.pdf' className='text-center flex justify-center items-center text-xl border-2 border-[#c7f9cc] w-[10rem] p-3 rounded-lg text-green-400 mt-6 hover:border-green-600'>Resume</Link>
               <p className='flex items-center justify-center text-white gap-2'><IoLocation className='text-red-400'/>
               <span>Maharashtra, India</span>
               </p>
