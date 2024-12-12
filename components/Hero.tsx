@@ -14,7 +14,7 @@ const Hero: React.FC = () => {
         <section className='flex flex-col justify-between lg:items-start items-center'>
           <div>
             <h1 className='lg:text-4xl text-xl text-[#f1faee] font-semibold '>
-              Lokesh Umredkar 😎
+              Lokesh 
             </h1>
             <h1 className='text-white/30 lg:text-5xl text-2xl font-bold shining-text'>
               Full Stack Developer
