@@ -42,7 +42,7 @@ const Chatbot: React.FC = () => {
                 <div className='fixed top-50 right-0 p-3 rounded-lg duration-500'>
                     <b><h1 className={`${Toggleclass} font-medium lg:text-3xl text-2xl bg-white text-black rounded-tr-lg rounded-tl-lg text-center mb-[-8px] p-1 flex items-center justify-center`}>Ask About Me 😎</h1></b>
                     <iframe
-                        src="https://www.chatbase.co/chatbot-iframe/jW2fnfBFUEYSVJVoh8iLK"
+                        src="https://www.chatbase.co/chatbot-iframe/x7H6iA2jLKMspBQyeW_km"
                         width="100%"
                         className={`lg:w-[700px] w-[350px] h-[400px] text-[20px] rounded-lg ${Toggleclass}`}
                     ></iframe>

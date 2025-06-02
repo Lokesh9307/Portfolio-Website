@@ -20,7 +20,7 @@ const Hero: React.FC = () => {
               Full Stack Developer
             </h1>
             <h2 className='text-3xl text-white/90 bold'>
-              MERN
+              MERN | Python | AI 
             </h2>
           </div>
           <div className='lg:w-[90%] w-full text-md text-[#f1faee]/70 p-4 rounded-xl lg:mt-10 mt-4 '>
